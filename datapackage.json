@@ -1,0 +1,1973 @@
+{
+    "name": "evacuees-by-prefecture",
+    "title": "所在都道府県別の避難者等の数",
+    "keywords": ["Japan", "earthquake", "evacuees", "refugees", "prefecture"],
+    "last_updated": "2014-06-16",
+    "sources": [{
+      "name": "Reconstruction Agency",
+      "web": "http://www.reconstruction.go.jp/topics/main-cat2/sub-cat2-1/hinanshasuu.html"
+    }],
+    "resources": [{
+        "name": "evacuees-by-prefecture-2011-07-28",
+        "path": "data/csv/所在都道府県別の避難者等の数（平成２３年７月２８日現在）.csv",
+        "format": "csv",
+        "dialect": {
+            "delimiter": ","
+        },
+        "mediatype": "text/csv",
+        "source": "http://www.reconstruction.go.jp/topics/110803hinansya.pdf",
+        "schema": {
+            "fields": [
+                {
+                    "name": "ISO 3166-2コード",
+                    "description": "",
+                    "type": "string"
+                }, {
+                    "name": "所在都道府県",
+                    "description": "",
+                    "type": "string"
+                }, {
+                    "name": "避難所 (公民館、学校等）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "旅館・ホテル",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "その他（親族・知人宅等）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "住宅等（公営、仮設、民間、病院含む）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "所在判明市区町村数",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "注釈",
+                    "description": "",
+                    "type": "string"
+                }
+            ]
+        }
+    }, {
+        "name": "evacuees-by-prefecture-2011-08-11",
+        "path": "data/csv/所在都道府県別の避難者等の数（平成２３年８月１１日現在）.csv",
+        "format": "csv",
+        "dialect": {
+            "delimiter": ","
+        },
+        "mediatype": "text/csv",
+        "source": "http://www.reconstruction.go.jp/topics/110822hinansya.pdf",
+        "schema": {
+            "fields": [
+                {
+                    "name": "ISO 3166-2コード",
+                    "description": "",
+                    "type": "string"
+                }, {
+                    "name": "所在都道府県",
+                    "description": "",
+                    "type": "string"
+                }, {
+                    "name": "避難所 (公民館、学校等）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "旅館・ホテル",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "その他（親族・知人宅等）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "住宅等（公営、仮設、民間、病院含む）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "所在判明市区町村数",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "注釈",
+                    "description": "",
+                    "type": "string"
+                }
+            ]
+        }
+    }, {
+        "name": "evacuees-by-prefecture-2011-08-25",
+        "path": "data/csv/所在都道府県別の避難者等の数（平成２３年８月２５日現在）.csv",
+        "format": "csv",
+        "dialect": {
+            "delimiter": ","
+        },
+        "mediatype": "text/csv",
+        "source": "http://www.reconstruction.go.jp/topics/110831hinansya.pdf",
+        "schema": {
+            "fields": [
+                {
+                    "name": "ISO 3166-2コード",
+                    "description": "",
+                    "type": "string"
+                }, {
+                    "name": "所在都道府県",
+                    "description": "",
+                    "type": "string"
+                }, {
+                    "name": "避難所 (公民館、学校等）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "旅館・ホテル",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "その他（親族・知人宅等）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "住宅等（公営、仮設、民間、病院含む）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "所在判明市区町村数",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "注釈",
+                    "description": "",
+                    "type": "string"
+                }
+            ]
+        }
+    }, {
+        "name": "evacuees-by-prefecture-2011-09-08",
+        "path": "data/csv/所在都道府県別の避難者等の数（平成２３年９月８日現在）.csv",
+        "format": "csv",
+        "dialect": {
+            "delimiter": ","
+        },
+        "mediatype": "text/csv",
+        "source": "http://www.reconstruction.go.jp/topics/hinansya0914.pdf",
+        "schema": {
+            "fields": [
+                {
+                    "name": "ISO 3166-2コード",
+                    "description": "",
+                    "type": "string"
+                }, {
+                    "name": "所在都道府県",
+                    "description": "",
+                    "type": "string"
+                }, {
+                    "name": "避難所 (公民館、学校等）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "旅館・ホテル",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "その他（親族・知人宅等）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "住宅等（公営、仮設、民間、病院含む）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "所在判明市区町村数",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "注釈",
+                    "description": "",
+                    "type": "string"
+                }
+            ]
+        }
+    }, {
+        "name": "evacuees-by-prefecture-2011-09-22",
+        "path": "data/csv/所在都道府県別の避難者等の数（平成２３年９月２２日現在）.csv",
+        "format": "csv",
+        "dialect": {
+            "delimiter": ","
+        },
+        "mediatype": "text/csv",
+        "source": "http://www.reconstruction.go.jp/topics/hinansya-suikei0928.pdf",
+        "schema": {
+            "fields": [
+                {
+                    "name": "ISO 3166-2コード",
+                    "description": "",
+                    "type": "string"
+                }, {
+                    "name": "所在都道府県",
+                    "description": "",
+                    "type": "string"
+                }, {
+                    "name": "避難所 (公民館、学校等）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "旅館・ホテル",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "その他（親族・知人宅等）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "住宅等（公営、仮設、民間、病院含む）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "所在判明市区町村数",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "注釈",
+                    "description": "",
+                    "type": "string"
+                }
+            ]
+        }
+    }, {
+        "name": "evacuees-by-prefecture-2011-10-06",
+        "path": "data/csv/所在都道府県別の避難者等の数（平成２３年１０月６日現在）.csv",
+        "format": "csv",
+        "dialect": {
+            "delimiter": ","
+        },
+        "mediatype": "text/csv",
+        "source": "http://www.reconstruction.go.jp/topics/20111012hinansya1.pdf",
+        "schema": {
+            "fields": [
+                {
+                    "name": "ISO 3166-2コード",
+                    "description": "",
+                    "type": "string"
+                }, {
+                    "name": "所在都道府県",
+                    "description": "",
+                    "type": "string"
+                }, {
+                    "name": "避難所 (公民館、学校等）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "旅館・ホテル",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "その他（親族・知人宅等）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "住宅等（公営、仮設、民間、病院含む）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "所在判明市区町村数",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "注釈",
+                    "description": "",
+                    "type": "string"
+                }
+            ]
+        }
+    }, {
+        "name": "evacuees-by-prefecture-2011-10-20",
+        "path": "data/csv/所在都道府県別の避難者等の数（平成２３年１０月２０日現在）.csv",
+        "format": "csv",
+        "dialect": {
+            "delimiter": ","
+        },
+        "mediatype": "text/csv",
+        "source": "http://www.reconstruction.go.jp/topics/hinansyasu.pdf",
+        "schema": {
+            "fields": [
+                {
+                    "name": "ISO 3166-2コード",
+                    "description": "",
+                    "type": "string"
+                }, {
+                    "name": "所在都道府県",
+                    "description": "",
+                    "type": "string"
+                }, {
+                    "name": "避難所 (公民館、学校等）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "旅館・ホテル",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "その他（親族・知人宅等）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "住宅等（公営、仮設、民間、病院含む）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "所在判明市区町村数",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "注釈",
+                    "description": "",
+                    "type": "string"
+                }
+            ]
+        }
+    }, {
+        "name": "evacuees-by-prefecture-2011-11-02",
+        "path": "data/csv/所在都道府県別の避難者等の数（平成２３年１１月２日現在）.csv",
+        "format": "csv",
+        "dialect": {
+            "delimiter": ","
+        },
+        "mediatype": "text/csv",
+        "source": "http://www.reconstruction.go.jp/topics/20111109hinansha.pdf",
+        "schema": {
+            "fields": [
+                {
+                    "name": "ISO 3166-2コード",
+                    "description": "",
+                    "type": "string"
+                }, {
+                    "name": "所在都道府県",
+                    "description": "",
+                    "type": "string"
+                }, {
+                    "name": "避難所 (公民館、学校等）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "旅館・ホテル",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "その他（親族・知人宅等）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "住宅等（公営、仮設、民間、病院含む）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "所在判明市区町村数",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "注釈",
+                    "description": "",
+                    "type": "string"
+                }
+            ]
+        }
+    }, {
+        "name": "evacuees-by-prefecture-2011-11-17",
+        "path": "data/csv/所在都道府県別の避難者等の数（平成２３年１１月１７日現在）.csv",
+        "format": "csv",
+        "dialect": {
+            "delimiter": ","
+        },
+        "mediatype": "text/csv",
+        "source": "http://www.reconstruction.go.jp/topics/20111124hinansha.pdf",
+        "schema": {
+            "fields": [
+                {
+                    "name": "ISO 3166-2コード",
+                    "description": "",
+                    "type": "string"
+                }, {
+                    "name": "所在都道府県",
+                    "description": "",
+                    "type": "string"
+                }, {
+                    "name": "避難所 (公民館、学校等）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "旅館・ホテル",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "その他（親族・知人宅等）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "住宅等（公営、仮設、民間、病院含む）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "所在判明市区町村数",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "注釈",
+                    "description": "",
+                    "type": "string"
+                }
+            ]
+        }
+    }, {
+        "name": "evacuees-by-prefecture-2011-12-01",
+        "path": "data/csv/所在都道府県別の避難者等の数（平成２３年１２月１日現在）.csv",
+        "format": "csv",
+        "dialect": {
+            "delimiter": ","
+        },
+        "mediatype": "text/csv",
+        "source": "http://www.reconstruction.go.jp/topics/20111207hinansya.pdf",
+        "schema": {
+            "fields": [
+                {
+                    "name": "ISO 3166-2コード",
+                    "description": "",
+                    "type": "string"
+                }, {
+                    "name": "所在都道府県",
+                    "description": "",
+                    "type": "string"
+                }, {
+                    "name": "避難所 (公民館、学校等）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "旅館・ホテル",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "その他（親族・知人宅等）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "住宅等（公営、仮設、民間、病院含む）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "所在判明市区町村数",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "注釈",
+                    "description": "",
+                    "type": "string"
+                }
+            ]
+        }
+    }, {
+        "name": "evacuees-by-prefecture-2011-12-15",
+        "path": "data/csv/所在都道府県別の避難者等の数（平成２３年１２月１５日現在）.csv",
+        "format": "csv",
+        "dialect": {
+            "delimiter": ","
+        },
+        "mediatype": "text/csv",
+        "source": "http://www.reconstruction.go.jp/topics/20111221hinansya.pdf",
+        "schema": {
+            "fields": [
+                {
+                    "name": "ISO 3166-2コード",
+                    "description": "",
+                    "type": "string"
+                }, {
+                    "name": "所在都道府県",
+                    "description": "",
+                    "type": "string"
+                }, {
+                    "name": "避難所 (公民館、学校等）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "旅館・ホテル",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "その他（親族・知人宅等）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "住宅等（公営、仮設、民間、病院含む）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "所在判明市区町村数",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "注釈",
+                    "description": "",
+                    "type": "string"
+                }
+            ]
+        }
+    }, {
+        "name": "evacuees-by-prefecture-2012-01-12",
+        "path": "data/csv/所在都道府県別の避難者等の数（平成２４年１月１２日現在）.csv",
+        "format": "csv",
+        "dialect": {
+            "delimiter": ","
+        },
+        "mediatype": "text/csv",
+        "source": "http://www.reconstruction.go.jp/topics/20120118hinannsyasu.pdf",
+        "schema": {
+            "fields": [
+                {
+                    "name": "ISO 3166-2コード",
+                    "description": "",
+                    "type": "string"
+                }, {
+                    "name": "所在都道府県",
+                    "description": "",
+                    "type": "string"
+                }, {
+                    "name": "避難所 (公民館、学校等）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "旅館・ホテル",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "その他（親族・知人宅等）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "住宅等（公営、仮設、民間、病院含む）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "所在判明市区町村数",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "注釈",
+                    "description": "",
+                    "type": "string"
+                }
+            ]
+        }
+    }, {
+        "name": "evacuees-by-prefecture-2012-01-26",
+        "path": "data/csv/所在都道府県別の避難者等の数（平成２４年１月２６日現在）.csv",
+        "format": "csv",
+        "dialect": {
+            "delimiter": ","
+        },
+        "mediatype": "text/csv",
+        "source": "http://www.reconstruction.go.jp/topics/20120201zenkoku-hinansyasu.pdf",
+        "schema": {
+            "fields": [
+                {
+                    "name": "ISO 3166-2コード",
+                    "description": "",
+                    "type": "string"
+                }, {
+                    "name": "所在都道府県",
+                    "description": "",
+                    "type": "string"
+                }, {
+                    "name": "避難所 (公民館、学校等）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "旅館・ホテル",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "その他（親族・知人宅等）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "住宅等（公営、仮設、民間、病院含む）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "所在判明市区町村数",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "注釈",
+                    "description": "",
+                    "type": "string"
+                }
+            ]
+        }
+    }, {
+        "name": "evacuees-by-prefecture-2012-02-09",
+        "path": "data/csv/所在都道府県別の避難者等の数（平成２４年２月９日現在）.csv",
+        "format": "csv",
+        "dialect": {
+            "delimiter": ","
+        },
+        "mediatype": "text/csv",
+        "source": "http://www.reconstruction.go.jp/topics/20120215zenkoku-hinansyasu.pdf",
+        "schema": {
+            "fields": [
+                {
+                    "name": "ISO 3166-2コード",
+                    "description": "",
+                    "type": "string"
+                }, {
+                    "name": "所在都道府県",
+                    "description": "",
+                    "type": "string"
+                }, {
+                    "name": "避難所 (公民館、学校等）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "旅館・ホテル",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "その他（親族・知人宅等）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "住宅等（公営、仮設、民間、病院含む）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "所在判明市区町村数",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "注釈",
+                    "description": "",
+                    "type": "string"
+                }
+            ]
+        }
+    }, {
+        "name": "evacuees-by-prefecture-2012-02-23",
+        "path": "data/csv/所在都道府県別の避難者等の数（平成２４年２月２３日現在）.csv",
+        "format": "csv",
+        "dialect": {
+            "delimiter": ","
+        },
+        "mediatype": "text/csv",
+        "source": "http://www.reconstruction.go.jp/topics/20120229zenkoku-hinansyasu.pdf",
+        "schema": {
+            "fields": [
+                {
+                    "name": "ISO 3166-2コード",
+                    "description": "",
+                    "type": "string"
+                }, {
+                    "name": "所在都道府県",
+                    "description": "",
+                    "type": "string"
+                }, {
+                    "name": "避難所 (公民館、学校等）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "旅館・ホテル",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "その他（親族・知人宅等）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "住宅等（公営、仮設、民間、病院含む）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "所在判明市区町村数",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "注釈",
+                    "description": "",
+                    "type": "string"
+                }
+            ]
+        }
+    }, {
+        "name": "evacuees-by-prefecture-2012-03-08",
+        "path": "data/csv/所在都道府県別の避難者等の数（平成２４年３月８日現在））.csv",
+        "format": "csv",
+        "dialect": {
+            "delimiter": ","
+        },
+        "mediatype": "text/csv",
+        "source": "http://www.reconstruction.go.jp/topics/120413hinansya.pdf",
+        "schema": {
+            "fields": [
+                {
+                    "name": "ISO 3166-2コード",
+                    "description": "",
+                    "type": "string"
+                }, {
+                    "name": "所在都道府県",
+                    "description": "",
+                    "type": "string"
+                }, {
+                    "name": "避難所 (公民館、学校等）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "旅館・ホテル",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "その他（親族・知人宅等）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "住宅等（公営、仮設、民間、病院含む）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "所在判明市区町村数",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "注釈",
+                    "description": "",
+                    "type": "string"
+                }
+            ]
+        }
+    }, {
+        "name": "evacuees-by-prefecture-2012-03-22",
+        "path": "data/csv/所在都道府県別の避難者等の数（平成２４年３月２２日現在）.csv",
+        "format": "csv",
+        "dialect": {
+            "delimiter": ","
+        },
+        "mediatype": "text/csv",
+        "source": "http://www.reconstruction.go.jp/topics/120328hinansya.pdf",
+        "schema": {
+            "fields": [
+                {
+                    "name": "ISO 3166-2コード",
+                    "description": "",
+                    "type": "string"
+                }, {
+                    "name": "所在都道府県",
+                    "description": "",
+                    "type": "string"
+                }, {
+                    "name": "避難所 (公民館、学校等）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "旅館・ホテル",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "その他（親族・知人宅等）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "住宅等（公営、仮設、民間、病院含む）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "所在判明市区町村数",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "注釈",
+                    "description": "",
+                    "type": "string"
+                }
+            ]
+        }
+    }, {
+        "name": "evacuees-by-prefecture-2012-04-05",
+        "path": "data/csv/所在都道府県別の避難者等の数（平成２４年４月５日現在）.csv",
+        "format": "csv",
+        "dialect": {
+            "delimiter": ","
+        },
+        "mediatype": "text/csv",
+        "source": "http://www.reconstruction.go.jp/topics/120411hinansya.pdf",
+        "schema": {
+            "fields": [
+                {
+                    "name": "ISO 3166-2コード",
+                    "description": "",
+                    "type": "string"
+                }, {
+                    "name": "所在都道府県",
+                    "description": "",
+                    "type": "string"
+                }, {
+                    "name": "避難所 (公民館、学校等）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "旅館・ホテル",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "その他（親族・知人宅等）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "住宅等（公営、仮設、民間、病院含む）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "所在判明市区町村数",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "注釈",
+                    "description": "",
+                    "type": "string"
+                }
+            ]
+        }
+    }, {
+        "name": "evacuees-by-prefecture-2012-05-10",
+        "path": "data/csv/所在都道府県別の避難者等の数（平成２４年５月１０日現在）.csv",
+        "format": "csv",
+        "dialect": {
+            "delimiter": ","
+        },
+        "mediatype": "text/csv",
+        "source": "http://www.reconstruction.go.jp/topics/120516hinansya.pdf",
+        "schema": {
+            "fields": [
+                {
+                    "name": "ISO 3166-2コード",
+                    "description": "",
+                    "type": "string"
+                }, {
+                    "name": "所在都道府県",
+                    "description": "",
+                    "type": "string"
+                }, {
+                    "name": "避難所 (公民館、学校等）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "旅館・ホテル",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "その他（親族・知人宅等）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "住宅等（公営、仮設、民間、病院含む）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "所在判明市区町村数",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "注釈",
+                    "description": "",
+                    "type": "string"
+                }
+            ]
+        }
+    }, {
+        "name": "evacuees-by-prefecture-2012-06-07",
+        "path": "data/csv/所在都道府県別の避難者等の数（平成２４年６月７日現在）.csv",
+        "format": "csv",
+        "dialect": {
+            "delimiter": ","
+        },
+        "mediatype": "text/csv",
+        "source": "http://www.reconstruction.go.jp/topics/120613hinansya.pdf",
+        "schema": {
+            "fields": [
+                {
+                    "name": "ISO 3166-2コード",
+                    "description": "",
+                    "type": "string"
+                }, {
+                    "name": "所在都道府県",
+                    "description": "",
+                    "type": "string"
+                }, {
+                    "name": "避難所 (公民館、学校等）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "旅館・ホテル",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "その他（親族・知人宅等）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "住宅等（公営、仮設、民間、病院含む）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "所在判明市区町村数",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "注釈",
+                    "description": "",
+                    "type": "string"
+                }
+            ]
+        }
+    }, {
+        "name": "evacuees-by-prefecture-2012-07-05",
+        "path": "data/csv/所在都道府県別の避難者等の数（平成２４年７月５日現在）.csv",
+        "format": "csv",
+        "dialect": {
+            "delimiter": ","
+        },
+        "mediatype": "text/csv",
+        "source": "http://www.reconstruction.go.jp/topics/120711hinansya.pdf",
+        "schema": {
+            "fields": [
+                {
+                    "name": "ISO 3166-2コード",
+                    "description": "",
+                    "type": "string"
+                }, {
+                    "name": "所在都道府県",
+                    "description": "",
+                    "type": "string"
+                }, {
+                    "name": "避難所 (公民館、学校等）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "旅館・ホテル",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "その他（親族・知人宅等）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "住宅等（公営、仮設、民間、病院含む）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "所在判明市区町村数",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "注釈",
+                    "description": "",
+                    "type": "string"
+                }
+            ]
+        }
+    }, {
+        "name": "evacuees-by-prefecture-2012-08-02",
+        "path": "data/csv/所在都道府県別の避難者等の数（平成２４年８月２日現在）.csv",
+        "format": "csv",
+        "dialect": {
+            "delimiter": ","
+        },
+        "mediatype": "text/csv",
+        "source": "http://www.reconstruction.go.jp/topics/120808hinansya.pdf",
+        "schema": {
+            "fields": [
+                {
+                    "name": "ISO 3166-2コード",
+                    "description": "",
+                    "type": "string"
+                }, {
+                    "name": "所在都道府県",
+                    "description": "",
+                    "type": "string"
+                }, {
+                    "name": "避難所 (公民館、学校等）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "旅館・ホテル",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "その他（親族・知人宅等）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "住宅等（公営、仮設、民間、病院含む）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "所在判明市区町村数",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "注釈",
+                    "description": "",
+                    "type": "string"
+                }
+            ]
+        }
+    }, {
+        "name": "evacuees-by-prefecture-2012-09-06",
+        "path": "data/csv/所在都道府県別の避難者等の数（平成２４年９月６日現在）.csv",
+        "format": "csv",
+        "dialect": {
+            "delimiter": ","
+        },
+        "mediatype": "text/csv",
+        "source": "http://www.reconstruction.go.jp/topics/120912_hinansya.pdf",
+        "schema": {
+            "fields": [
+                {
+                    "name": "ISO 3166-2コード",
+                    "description": "",
+                    "type": "string"
+                }, {
+                    "name": "所在都道府県",
+                    "description": "",
+                    "type": "string"
+                }, {
+                    "name": "避難所 (公民館、学校等）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "旅館・ホテル",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "その他（親族・知人宅等）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "住宅等（公営、仮設、民間、病院含む）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "所在判明市区町村数",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "注釈",
+                    "description": "",
+                    "type": "string"
+                }
+            ]
+        }
+    }, {
+        "name": "evacuees-by-prefecture-2012-10-04",
+        "path": "data/csv/所在都道府県別の避難者等の数（平成２４年１０月４日現在）.csv",
+        "format": "csv",
+        "dialect": {
+            "delimiter": ","
+        },
+        "mediatype": "text/csv",
+        "source": "http://www.reconstruction.go.jp/topics/10101300_hpkouhyousyuusei.pdf",
+        "schema": {
+            "fields": [
+                {
+                    "name": "ISO 3166-2コード",
+                    "description": "",
+                    "type": "string"
+                }, {
+                    "name": "所在都道府県",
+                    "description": "",
+                    "type": "string"
+                }, {
+                    "name": "避難所 (公民館、学校等）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "旅館・ホテル",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "その他（親族・知人宅等）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "住宅等（公営、仮設、民間、病院含む）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "所在判明市区町村数",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "注釈",
+                    "description": "",
+                    "type": "string"
+                }
+            ]
+        }
+    }, {
+        "name": "evacuees-by-prefecture-2012-11-01",
+        "path": "data/csv/所在都道府県別の避難者等の数（平成２４年１１月１日現在）.csv",
+        "format": "csv",
+        "dialect": {
+            "delimiter": ","
+        },
+        "mediatype": "text/csv",
+        "source": "http://www.reconstruction.go.jp/topics/20121107_hinansyasuusyuuseiban-2.pdf",
+        "schema": {
+            "fields": [
+                {
+                    "name": "ISO 3166-2コード",
+                    "description": "",
+                    "type": "string"
+                }, {
+                    "name": "所在都道府県",
+                    "description": "",
+                    "type": "string"
+                }, {
+                    "name": "避難所 (公民館、学校等）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "旅館・ホテル",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "その他（親族・知人宅等）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "住宅等（公営、仮設、民間、病院含む）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "所在判明市区町村数",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "注釈",
+                    "description": "",
+                    "type": "string"
+                }
+            ]
+        }
+    }, {
+        "name": "evacuees-by-prefecture-2012-12-06",
+        "path": "data/csv/所在都道府県別の避難者等の数（平成２４年１２月６日現在）.csv",
+        "format": "csv",
+        "dialect": {
+            "delimiter": ","
+        },
+        "mediatype": "text/csv",
+        "source": "http://www.reconstruction.go.jp/topics/20121212_hinansyasuutyousa.pdf",
+        "schema": {
+            "fields": [
+                {
+                    "name": "ISO 3166-2コード",
+                    "description": "",
+                    "type": "string"
+                }, {
+                    "name": "所在都道府県",
+                    "description": "",
+                    "type": "string"
+                }, {
+                    "name": "避難所 (公民館、学校等）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "旅館・ホテル",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "その他（親族・知人宅等）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "住宅等（公営、仮設、民間、病院含む）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "所在判明市区町村数",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "注釈",
+                    "description": "",
+                    "type": "string"
+                }
+            ]
+        }
+    }, {
+        "name": "evacuees-by-prefecture-2013-01-17",
+        "path": "data/csv/所在都道府県別の避難者等の数（平成２５年１月１７日現在）.csv",
+        "format": "csv",
+        "dialect": {
+            "delimiter": ","
+        },
+        "mediatype": "text/csv",
+        "source": "http://www.reconstruction.go.jp/topics/20130125_hinansyasuutyousa.pdf",
+        "schema": {
+            "fields": [
+                {
+                    "name": "ISO 3166-2コード",
+                    "description": "",
+                    "type": "string"
+                }, {
+                    "name": "所在都道府県",
+                    "description": "",
+                    "type": "string"
+                }, {
+                    "name": "避難所 (公民館、学校等）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "旅館・ホテル",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "その他（親族・知人宅等）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "住宅等（公営、仮設、民間、病院含む）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "所在判明市区町村数",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "注釈",
+                    "description": "",
+                    "type": "string"
+                }
+            ]
+        }
+    }, {
+        "name": "evacuees-by-prefecture-2013-02-07",
+        "path": "data/csv/所在都道府県別の避難者等の数（平成２５年２月７日現在）.csv",
+        "format": "csv",
+        "dialect": {
+            "delimiter": ","
+        },
+        "mediatype": "text/csv",
+        "source": "http://www.reconstruction.go.jp/topics/20130215_hinansya.pdf",
+        "schema": {
+            "fields": [
+                {
+                    "name": "ISO 3166-2コード",
+                    "description": "",
+                    "type": "string"
+                }, {
+                    "name": "所在都道府県",
+                    "description": "",
+                    "type": "string"
+                }, {
+                    "name": "避難所 (公民館、学校等）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "旅館・ホテル",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "その他（親族・知人宅等）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "住宅等（公営、仮設、民間、病院含む）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "所在判明市区町村数",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "注釈",
+                    "description": "",
+                    "type": "string"
+                }
+            ]
+        }
+    }, {
+        "name": "evacuees-by-prefecture-2013-03-07",
+        "path": "data/csv/所在都道府県別の避難者等の数（平成２５年３月７日現在）.csv",
+        "format": "csv",
+        "dialect": {
+            "delimiter": ","
+        },
+        "mediatype": "text/csv",
+        "source": "http://www.reconstruction.go.jp/topics/20130315_hinansha.pdf",
+        "schema": {
+            "fields": [
+                {
+                    "name": "ISO 3166-2コード",
+                    "description": "",
+                    "type": "string"
+                }, {
+                    "name": "所在都道府県",
+                    "description": "",
+                    "type": "string"
+                }, {
+                    "name": "避難所 (公民館、学校等）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "旅館・ホテル",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "その他（親族・知人宅等）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "住宅等（公営、仮設、民間、病院含む）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "所在判明市区町村数",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "注釈",
+                    "description": "",
+                    "type": "string"
+                }
+            ]
+        }
+    }, {
+        "name": "evacuees-by-prefecture-2013-04-04",
+        "path": "data/csv/所在都道府県別の避難者等の数（平成２５年４月４日現在）.csv",
+        "format": "csv",
+        "dialect": {
+            "delimiter": ","
+        },
+        "mediatype": "text/csv",
+        "source": "http://www.reconstruction.go.jp/topics/20130412_hinansha.pdf",
+        "schema": {
+            "fields": [
+                {
+                    "name": "ISO 3166-2コード",
+                    "description": "",
+                    "type": "string"
+                }, {
+                    "name": "所在都道府県",
+                    "description": "",
+                    "type": "string"
+                }, {
+                    "name": "避難所 (公民館、学校等）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "旅館・ホテル",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "その他（親族・知人宅等）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "住宅等（公営、仮設、民間、病院含む）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "所在判明市区町村数",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "注釈",
+                    "description": "",
+                    "type": "string"
+                }
+            ]
+        }
+    }, {
+        "name": "evacuees-by-prefecture-2013-05-09",
+        "path": "data/csv/所在都道府県別の避難者等の数（平成２５年５月９日現在）.csv",
+        "format": "csv",
+        "dialect": {
+            "delimiter": ","
+        },
+        "mediatype": "text/csv",
+        "source": "http://www.reconstruction.go.jp/topics/20130520_hinansha.pdf",
+        "schema": {
+            "fields": [
+                {
+                    "name": "ISO 3166-2コード",
+                    "description": "",
+                    "type": "string"
+                }, {
+                    "name": "所在都道府県",
+                    "description": "",
+                    "type": "string"
+                }, {
+                    "name": "避難所 (公民館、学校等）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "旅館・ホテル",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "その他（親族・知人宅等）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "住宅等（公営、仮設、民間、病院含む）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "所在判明市区町村数",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "注釈",
+                    "description": "",
+                    "type": "string"
+                }
+            ]
+        }
+    }, {
+        "name": "evacuees-by-prefecture-2013-06-06",
+        "path": "data/csv/所在都道府県別の避難者等の数（平成２５年６月６日現在）.csv",
+        "format": "csv",
+        "dialect": {
+            "delimiter": ","
+        },
+        "mediatype": "text/csv",
+        "source": "http://www.reconstruction.go.jp/content/20130618_hinansha.pdf",
+        "schema": {
+            "fields": [
+                {
+                    "name": "ISO 3166-2コード",
+                    "description": "",
+                    "type": "string"
+                }, {
+                    "name": "所在都道府県",
+                    "description": "",
+                    "type": "string"
+                }, {
+                    "name": "避難所 (公民館、学校等）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "旅館・ホテル",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "その他（親族・知人宅等）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "住宅等（公営、仮設、民間、病院含む）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "所在判明市区町村数",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "注釈",
+                    "description": "",
+                    "type": "string"
+                }
+            ]
+        }
+    }, {
+        "name": "evacuees-by-prefecture-2013-07-04",
+        "path": "data/csv/所在都道府県別の避難者等の数（平成２５年７月４日現在）.csv",
+        "format": "csv",
+        "dialect": {
+            "delimiter": ","
+        },
+        "mediatype": "text/csv",
+        "source": "http://www.reconstruction.go.jp/topics/main-cat2/sub-cat2-1/20130730_hinansha.pdf",
+        "schema": {
+            "fields": [
+                {
+                    "name": "ISO 3166-2コード",
+                    "description": "",
+                    "type": "string"
+                }, {
+                    "name": "所在都道府県",
+                    "description": "",
+                    "type": "string"
+                }, {
+                    "name": "避難所 (公民館、学校等）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "旅館・ホテル",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "その他（親族・知人宅等）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "住宅等（公営、仮設、民間、病院含む）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "所在判明市区町村数",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "注釈",
+                    "description": "",
+                    "type": "string"
+                }
+            ]
+        }
+    }, {
+        "name": "evacuees-by-prefecture-2013-08-12",
+        "path": "data/csv/所在都道府県別の避難者等の数（平成２５年８月１２日現在）.csv",
+        "format": "csv",
+        "dialect": {
+            "delimiter": ","
+        },
+        "mediatype": "text/csv",
+        "source": "http://www.reconstruction.go.jp/topics/main-cat2/sub-cat2-1/20130822_hinansha.pdf",
+        "schema": {
+            "fields": [
+                {
+                    "name": "ISO 3166-2コード",
+                    "description": "",
+                    "type": "string"
+                }, {
+                    "name": "所在都道府県",
+                    "description": "",
+                    "type": "string"
+                }, {
+                    "name": "避難所 (公民館、学校等）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "旅館・ホテル",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "その他（親族・知人宅等）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "住宅等（公営、仮設、民間、病院含む）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "所在判明市区町村数",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "注釈",
+                    "description": "",
+                    "type": "string"
+                }
+            ]
+        }
+    }, {
+        "name": "evacuees-by-prefecture-2013-09-12",
+        "path": "data/csv/所在都道府県別の避難者等の数（平成２５年９月１２日現在）.csv",
+        "format": "csv",
+        "dialect": {
+            "delimiter": ","
+        },
+        "mediatype": "text/csv",
+        "source": "http://www.reconstruction.go.jp/topics/main-cat2/sub-cat2-1/20130925_hinansha.pdf",
+        "schema": {
+            "fields": [
+                {
+                    "name": "ISO 3166-2コード",
+                    "description": "",
+                    "type": "string"
+                }, {
+                    "name": "所在都道府県",
+                    "description": "",
+                    "type": "string"
+                }, {
+                    "name": "避難所 (公民館、学校等）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "旅館・ホテル",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "その他（親族・知人宅等）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "住宅等（公営、仮設、民間、病院含む）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "所在判明市区町村数",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "注釈",
+                    "description": "",
+                    "type": "string"
+                }
+            ]
+        }
+    }, {
+        "name": "evacuees-by-prefecture-2013-10-10",
+        "path": "data/csv/所在都道府県別の避難者等の数（平成２５年１０月１０日現在）.csv",
+        "format": "csv",
+        "dialect": {
+            "delimiter": ","
+        },
+        "mediatype": "text/csv",
+        "source": "http://www.reconstruction.go.jp/topics/main-cat2/sub-cat2-1/20131025_hinansha.pdf",
+        "schema": {
+            "fields": [
+                {
+                    "name": "ISO 3166-2コード",
+                    "description": "",
+                    "type": "string"
+                }, {
+                    "name": "所在都道府県",
+                    "description": "",
+                    "type": "string"
+                }, {
+                    "name": "避難所 (公民館、学校等）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "旅館・ホテル",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "その他（親族・知人宅等）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "住宅等（公営、仮設、民間、病院含む）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "所在判明市区町村数",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "注釈",
+                    "description": "",
+                    "type": "string"
+                }
+            ]
+        }
+    }, {
+        "name": "evacuees-by-prefecture-2013-11-14",
+        "path": "data/csv/所在都道府県別の避難者等の数（平成２５年１１月１４日現在）.csv",
+        "format": "csv",
+        "dialect": {
+            "delimiter": ","
+        },
+        "mediatype": "text/csv",
+        "source": "http://www.reconstruction.go.jp/topics/main-cat2/sub-cat2-1/20131127_hinansha.pdf",
+        "schema": {
+            "fields": [
+                {
+                    "name": "ISO 3166-2コード",
+                    "description": "",
+                    "type": "string"
+                }, {
+                    "name": "所在都道府県",
+                    "description": "",
+                    "type": "string"
+                }, {
+                    "name": "避難所 (公民館、学校等）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "旅館・ホテル",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "その他（親族・知人宅等）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "住宅等（公営、仮設、民間、病院含む）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "所在判明市区町村数",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "注釈",
+                    "description": "",
+                    "type": "string"
+                }
+            ]
+        }
+    }, {
+        "name": "evacuees-by-prefecture-2013-12-12",
+        "path": "data/csv/所在都道府県別の避難者等の数（平成２５年１２月１２日現在）.csv",
+        "format": "csv",
+        "dialect": {
+            "delimiter": ","
+        },
+        "mediatype": "text/csv",
+        "source": "http://www.reconstruction.go.jp/topics/main-cat2/sub-cat2-1/20131224_hinansha.pdf",
+        "schema": {
+            "fields": [
+                {
+                    "name": "ISO 3166-2コード",
+                    "description": "",
+                    "type": "string"
+                }, {
+                    "name": "所在都道府県",
+                    "description": "",
+                    "type": "string"
+                }, {
+                    "name": "避難所 (公民館、学校等）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "旅館・ホテル",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "その他（親族・知人宅等）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "住宅等（公営、仮設、民間、病院含む）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "所在判明市区町村数",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "注釈",
+                    "description": "",
+                    "type": "string"
+                }
+            ]
+        }
+    }, {
+        "name": "evacuees-by-prefecture-2014-01-16",
+        "path": "data/csv/所在都道府県別の避難者等の数（平成２６年１月１６日現在）.csv",
+        "format": "csv",
+        "dialect": {
+            "delimiter": ","
+        },
+        "mediatype": "text/csv",
+        "source": "http://www.reconstruction.go.jp/topics/main-cat2/sub-cat2-1/20140128_hinansha.pdf",
+        "schema": {
+            "fields": [
+                {
+                    "name": "ISO 3166-2コード",
+                    "description": "",
+                    "type": "string"
+                }, {
+                    "name": "所在都道府県",
+                    "description": "",
+                    "type": "string"
+                }, {
+                    "name": "避難所 (公民館、学校等）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "旅館・ホテル",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "その他（親族・知人宅等）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "住宅等（公営、仮設、民間、病院含む）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "所在判明市区町村数",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "注釈",
+                    "description": "",
+                    "type": "string"
+                }
+            ]
+        }
+    }, {
+        "name": "evacuees-by-prefecture-2014-02-13",
+        "path": "data/csv/所在都道府県別の避難者等の数（平成２６年２月１３日現在）.csv",
+        "format": "csv",
+        "dialect": {
+            "delimiter": ","
+        },
+        "mediatype": "text/csv",
+        "source": "http://www.reconstruction.go.jp/topics/main-cat2/sub-cat2-1/20140226_hinansha.pdf",
+        "schema": {
+            "fields": [
+                {
+                    "name": "ISO 3166-2コード",
+                    "description": "",
+                    "type": "string"
+                }, {
+                    "name": "所在都道府県",
+                    "description": "",
+                    "type": "string"
+                }, {
+                    "name": "住宅等市区町村数（公営、応急仮設、民間賃貸等）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "親族・知人宅等",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "病院等",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "所在判明市区町村数",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "注釈",
+                    "description": "",
+                    "type": "string"
+                }
+            ]
+        }
+    }, {
+        "name": "evacuees-by-prefecture-2014-03-13",
+        "path": "data/csv/所在都道府県別の避難者等の数（平成２６年３月１３日現在）.csv",
+        "format": "csv",
+        "dialect": {
+            "delimiter": ","
+        },
+        "mediatype": "text/csv",
+        "source": "http://www.reconstruction.go.jp/topics/main-cat2/sub-cat2-1/20140327_hinansha.pdf",
+        "schema": {
+            "fields": [
+                {
+                    "name": "ISO 3166-2コード",
+                    "description": "",
+                    "type": "string"
+                }, {
+                    "name": "所在都道府県",
+                    "description": "",
+                    "type": "string"
+                }, {
+                    "name": "住宅等市区町村数（公営、応急仮設、民間賃貸等）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "親族・知人宅等",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "病院等",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "所在判明市区町村数",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "注釈",
+                    "description": "",
+                    "type": "string"
+                }
+            ]
+        }
+    }, {
+        "name": "evacuees-by-prefecture-2014-04-10",
+        "path": "data/csv/所在都道府県別の避難者等の数（平成２６年４月１０日現在）.csv",
+        "format": "csv",
+        "dialect": {
+            "delimiter": ","
+        },
+        "mediatype": "text/csv",
+        "source": "http://www.reconstruction.go.jp/topics/main-cat2/sub-cat2-1/20140425_hinansha.pdf",
+        "schema": {
+            "fields": [
+                {
+                    "name": "ISO 3166-2コード",
+                    "description": "",
+                    "type": "string"
+                }, {
+                    "name": "所在都道府県",
+                    "description": "",
+                    "type": "string"
+                }, {
+                    "name": "住宅等市区町村数（公営、応急仮設、民間賃貸等）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "親族・知人宅等",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "病院等",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "所在判明市区町村数",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "注釈",
+                    "description": "",
+                    "type": "string"
+                }
+            ]
+        }
+    }, {
+        "name": "evacuees-by-prefecture-2014-05-15",
+        "path": "data/csv/所在都道府県別の避難者等の数（平成２６年５月１５日現在）.csv",
+        "format": "csv",
+        "dialect": {
+            "delimiter": ","
+        },
+        "mediatype": "text/csv",
+        "source": "http://www.reconstruction.go.jp/topics/main-cat2/sub-cat2-1/20140523_hinansha.pdf",
+        "schema": {
+            "fields": [
+                {
+                    "name": "ISO 3166-2コード",
+                    "description": "",
+                    "type": "string"
+                }, {
+                    "name": "所在都道府県",
+                    "description": "",
+                    "type": "string"
+                }, {
+                    "name": "住宅等市区町村数（公営、応急仮設、民間賃貸等）",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "親族・知人宅等",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "病院等",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "所在判明市区町村数",
+                    "description": "",
+                    "type": "integer"
+                }, {
+                    "name": "注釈",
+                    "description": "",
+                    "type": "string"
+                }
+            ]
+        }
+    }]
+}
