@@ -9,7 +9,7 @@
     }],
     "resources": [{
         "name": "evacuees-by-prefecture-2011-07-28",
-        "path": "data/csv/所在都道府県別の避難者等の数（平成２３年７月２８日現在）.csv",
+        "path": "data/csv/evacuees-by-prefecture-2011-07-28.csv",
         "format": "csv",
         "dialect": {
             "delimiter": ","
@@ -50,12 +50,16 @@
                     "name": "注釈",
                     "description": "",
                     "type": "string"
+                }, {
+                    "name": "年月日",
+                    "description": "",
+                    "type": "date"
                 }
             ]
         }
     }, {
         "name": "evacuees-by-prefecture-2011-08-11",
-        "path": "data/csv/所在都道府県別の避難者等の数（平成２３年８月１１日現在）.csv",
+        "path": "data/csv/evacuees-by-prefecture-2011-08-11.csv",
         "format": "csv",
         "dialect": {
             "delimiter": ","
@@ -96,12 +100,16 @@
                     "name": "注釈",
                     "description": "",
                     "type": "string"
+                }, {
+                    "name": "年月日",
+                    "description": "",
+                    "type": "date"
                 }
             ]
         }
     }, {
         "name": "evacuees-by-prefecture-2011-08-25",
-        "path": "data/csv/所在都道府県別の避難者等の数（平成２３年８月２５日現在）.csv",
+        "path": "data/csv/evacuees-by-prefecture-2011-08-25.csv",
         "format": "csv",
         "dialect": {
             "delimiter": ","
@@ -142,12 +150,16 @@
                     "name": "注釈",
                     "description": "",
                     "type": "string"
+                }, {
+                    "name": "年月日",
+                    "description": "",
+                    "type": "date"
                 }
             ]
         }
     }, {
         "name": "evacuees-by-prefecture-2011-09-08",
-        "path": "data/csv/所在都道府県別の避難者等の数（平成２３年９月８日現在）.csv",
+        "path": "data/csv/evacuees-by-prefecture-2011-09-08.csv",
         "format": "csv",
         "dialect": {
             "delimiter": ","
@@ -188,12 +200,16 @@
                     "name": "注釈",
                     "description": "",
                     "type": "string"
+                }, {
+                    "name": "年月日",
+                    "description": "",
+                    "type": "date"
                 }
             ]
         }
     }, {
         "name": "evacuees-by-prefecture-2011-09-22",
-        "path": "data/csv/所在都道府県別の避難者等の数（平成２３年９月２２日現在）.csv",
+        "path": "data/csv/evacuees-by-prefecture-2011-09-22.csv",
         "format": "csv",
         "dialect": {
             "delimiter": ","
@@ -234,12 +250,16 @@
                     "name": "注釈",
                     "description": "",
                     "type": "string"
+                }, {
+                    "name": "年月日",
+                    "description": "",
+                    "type": "date"
                 }
             ]
         }
     }, {
         "name": "evacuees-by-prefecture-2011-10-06",
-        "path": "data/csv/所在都道府県別の避難者等の数（平成２３年１０月６日現在）.csv",
+        "path": "data/csv/evacuees-by-prefecture-2011-10-06.csv",
         "format": "csv",
         "dialect": {
             "delimiter": ","
@@ -280,12 +300,16 @@
                     "name": "注釈",
                     "description": "",
                     "type": "string"
+                }, {
+                    "name": "年月日",
+                    "description": "",
+                    "type": "date"
                 }
             ]
         }
     }, {
         "name": "evacuees-by-prefecture-2011-10-20",
-        "path": "data/csv/所在都道府県別の避難者等の数（平成２３年１０月２０日現在）.csv",
+        "path": "data/csv/evacuees-by-prefecture-2011-10-20.csv",
         "format": "csv",
         "dialect": {
             "delimiter": ","
@@ -326,12 +350,16 @@
                     "name": "注釈",
                     "description": "",
                     "type": "string"
+                }, {
+                    "name": "年月日",
+                    "description": "",
+                    "type": "date"
                 }
             ]
         }
     }, {
         "name": "evacuees-by-prefecture-2011-11-02",
-        "path": "data/csv/所在都道府県別の避難者等の数（平成２３年１１月２日現在）.csv",
+        "path": "data/csv/evacuees-by-prefecture-2011-11-02.csv",
         "format": "csv",
         "dialect": {
             "delimiter": ","
@@ -372,12 +400,16 @@
                     "name": "注釈",
                     "description": "",
                     "type": "string"
+                }, {
+                    "name": "年月日",
+                    "description": "",
+                    "type": "date"
                 }
             ]
         }
     }, {
         "name": "evacuees-by-prefecture-2011-11-17",
-        "path": "data/csv/所在都道府県別の避難者等の数（平成２３年１１月１７日現在）.csv",
+        "path": "data/csv/evacuees-by-prefecture-2011-11-17.csv",
         "format": "csv",
         "dialect": {
             "delimiter": ","
@@ -418,12 +450,16 @@
                     "name": "注釈",
                     "description": "",
                     "type": "string"
+                }, {
+                    "name": "年月日",
+                    "description": "",
+                    "type": "date"
                 }
             ]
         }
     }, {
         "name": "evacuees-by-prefecture-2011-12-01",
-        "path": "data/csv/所在都道府県別の避難者等の数（平成２３年１２月１日現在）.csv",
+        "path": "data/csv/evacuees-by-prefecture-2011-12-01.csv",
         "format": "csv",
         "dialect": {
             "delimiter": ","
@@ -464,12 +500,16 @@
                     "name": "注釈",
                     "description": "",
                     "type": "string"
+                }, {
+                    "name": "年月日",
+                    "description": "",
+                    "type": "date"
                 }
             ]
         }
     }, {
         "name": "evacuees-by-prefecture-2011-12-15",
-        "path": "data/csv/所在都道府県別の避難者等の数（平成２３年１２月１５日現在）.csv",
+        "path": "data/csv/evacuees-by-prefecture-2011-12-15.csv",
         "format": "csv",
         "dialect": {
             "delimiter": ","
@@ -510,12 +550,16 @@
                     "name": "注釈",
                     "description": "",
                     "type": "string"
+                }, {
+                    "name": "年月日",
+                    "description": "",
+                    "type": "date"
                 }
             ]
         }
     }, {
         "name": "evacuees-by-prefecture-2012-01-12",
-        "path": "data/csv/所在都道府県別の避難者等の数（平成２４年１月１２日現在）.csv",
+        "path": "data/csv/evacuees-by-prefecture-2012-01-12.csv",
         "format": "csv",
         "dialect": {
             "delimiter": ","
@@ -556,12 +600,16 @@
                     "name": "注釈",
                     "description": "",
                     "type": "string"
+                }, {
+                    "name": "年月日",
+                    "description": "",
+                    "type": "date"
                 }
             ]
         }
     }, {
         "name": "evacuees-by-prefecture-2012-01-26",
-        "path": "data/csv/所在都道府県別の避難者等の数（平成２４年１月２６日現在）.csv",
+        "path": "data/csv/evacuees-by-prefecture-2012-01-26.csv",
         "format": "csv",
         "dialect": {
             "delimiter": ","
@@ -602,12 +650,16 @@
                     "name": "注釈",
                     "description": "",
                     "type": "string"
+                }, {
+                    "name": "年月日",
+                    "description": "",
+                    "type": "date"
                 }
             ]
         }
     }, {
         "name": "evacuees-by-prefecture-2012-02-09",
-        "path": "data/csv/所在都道府県別の避難者等の数（平成２４年２月９日現在）.csv",
+        "path": "data/csv/evacuees-by-prefecture-2012-02-09.csv",
         "format": "csv",
         "dialect": {
             "delimiter": ","
@@ -648,12 +700,16 @@
                     "name": "注釈",
                     "description": "",
                     "type": "string"
+                }, {
+                    "name": "年月日",
+                    "description": "",
+                    "type": "date"
                 }
             ]
         }
     }, {
         "name": "evacuees-by-prefecture-2012-02-23",
-        "path": "data/csv/所在都道府県別の避難者等の数（平成２４年２月２３日現在）.csv",
+        "path": "data/csv/evacuees-by-prefecture-2012-02-23.csv",
         "format": "csv",
         "dialect": {
             "delimiter": ","
@@ -694,12 +750,16 @@
                     "name": "注釈",
                     "description": "",
                     "type": "string"
+                }, {
+                    "name": "年月日",
+                    "description": "",
+                    "type": "date"
                 }
             ]
         }
     }, {
         "name": "evacuees-by-prefecture-2012-03-08",
-        "path": "data/csv/所在都道府県別の避難者等の数（平成２４年３月８日現在））.csv",
+        "path": "data/csv/evacuees-by-prefecture-2012-03-08.csv",
         "format": "csv",
         "dialect": {
             "delimiter": ","
@@ -740,12 +800,16 @@
                     "name": "注釈",
                     "description": "",
                     "type": "string"
+                }, {
+                    "name": "年月日",
+                    "description": "",
+                    "type": "date"
                 }
             ]
         }
     }, {
         "name": "evacuees-by-prefecture-2012-03-22",
-        "path": "data/csv/所在都道府県別の避難者等の数（平成２４年３月２２日現在）.csv",
+        "path": "data/csv/evacuees-by-prefecture-2012-03-22.csv",
         "format": "csv",
         "dialect": {
             "delimiter": ","
@@ -786,12 +850,16 @@
                     "name": "注釈",
                     "description": "",
                     "type": "string"
+                }, {
+                    "name": "年月日",
+                    "description": "",
+                    "type": "date"
                 }
             ]
         }
     }, {
         "name": "evacuees-by-prefecture-2012-04-05",
-        "path": "data/csv/所在都道府県別の避難者等の数（平成２４年４月５日現在）.csv",
+        "path": "data/csv/evacuees-by-prefecture-2012-04-05.csv",
         "format": "csv",
         "dialect": {
             "delimiter": ","
@@ -832,12 +900,16 @@
                     "name": "注釈",
                     "description": "",
                     "type": "string"
+                }, {
+                    "name": "年月日",
+                    "description": "",
+                    "type": "date"
                 }
             ]
         }
     }, {
         "name": "evacuees-by-prefecture-2012-05-10",
-        "path": "data/csv/所在都道府県別の避難者等の数（平成２４年５月１０日現在）.csv",
+        "path": "data/csv/evacuees-by-prefecture-2012-05-10.csv",
         "format": "csv",
         "dialect": {
             "delimiter": ","
@@ -878,12 +950,16 @@
                     "name": "注釈",
                     "description": "",
                     "type": "string"
+                }, {
+                    "name": "年月日",
+                    "description": "",
+                    "type": "date"
                 }
             ]
         }
     }, {
         "name": "evacuees-by-prefecture-2012-06-07",
-        "path": "data/csv/所在都道府県別の避難者等の数（平成２４年６月７日現在）.csv",
+        "path": "data/csv/evacuees-by-prefecture-2012-06-07.csv",
         "format": "csv",
         "dialect": {
             "delimiter": ","
@@ -924,12 +1000,16 @@
                     "name": "注釈",
                     "description": "",
                     "type": "string"
+                }, {
+                    "name": "年月日",
+                    "description": "",
+                    "type": "date"
                 }
             ]
         }
     }, {
         "name": "evacuees-by-prefecture-2012-07-05",
-        "path": "data/csv/所在都道府県別の避難者等の数（平成２４年７月５日現在）.csv",
+        "path": "data/csv/evacuees-by-prefecture-2012-07-05.csv",
         "format": "csv",
         "dialect": {
             "delimiter": ","
@@ -970,12 +1050,16 @@
                     "name": "注釈",
                     "description": "",
                     "type": "string"
+                }, {
+                    "name": "年月日",
+                    "description": "",
+                    "type": "date"
                 }
             ]
         }
     }, {
         "name": "evacuees-by-prefecture-2012-08-02",
-        "path": "data/csv/所在都道府県別の避難者等の数（平成２４年８月２日現在）.csv",
+        "path": "data/csv/evacuees-by-prefecture-2012-08-02.csv",
         "format": "csv",
         "dialect": {
             "delimiter": ","
@@ -1016,12 +1100,16 @@
                     "name": "注釈",
                     "description": "",
                     "type": "string"
+                }, {
+                    "name": "年月日",
+                    "description": "",
+                    "type": "date"
                 }
             ]
         }
     }, {
         "name": "evacuees-by-prefecture-2012-09-06",
-        "path": "data/csv/所在都道府県別の避難者等の数（平成２４年９月６日現在）.csv",
+        "path": "data/csv/evacuees-by-prefecture-2012-09-06.csv",
         "format": "csv",
         "dialect": {
             "delimiter": ","
@@ -1062,12 +1150,16 @@
                     "name": "注釈",
                     "description": "",
                     "type": "string"
+                }, {
+                    "name": "年月日",
+                    "description": "",
+                    "type": "date"
                 }
             ]
         }
     }, {
         "name": "evacuees-by-prefecture-2012-10-04",
-        "path": "data/csv/所在都道府県別の避難者等の数（平成２４年１０月４日現在）.csv",
+        "path": "data/csv/evacuees-by-prefecture-2012-10-04.csv",
         "format": "csv",
         "dialect": {
             "delimiter": ","
@@ -1108,12 +1200,16 @@
                     "name": "注釈",
                     "description": "",
                     "type": "string"
+                }, {
+                    "name": "年月日",
+                    "description": "",
+                    "type": "date"
                 }
             ]
         }
     }, {
         "name": "evacuees-by-prefecture-2012-11-01",
-        "path": "data/csv/所在都道府県別の避難者等の数（平成２４年１１月１日現在）.csv",
+        "path": "data/csv/evacuees-by-prefecture-2012-11-01.csv",
         "format": "csv",
         "dialect": {
             "delimiter": ","
@@ -1154,12 +1250,16 @@
                     "name": "注釈",
                     "description": "",
                     "type": "string"
+                }, {
+                    "name": "年月日",
+                    "description": "",
+                    "type": "date"
                 }
             ]
         }
     }, {
         "name": "evacuees-by-prefecture-2012-12-06",
-        "path": "data/csv/所在都道府県別の避難者等の数（平成２４年１２月６日現在）.csv",
+        "path": "data/csv/evacuees-by-prefecture-2012-12-06.csv",
         "format": "csv",
         "dialect": {
             "delimiter": ","
@@ -1200,12 +1300,16 @@
                     "name": "注釈",
                     "description": "",
                     "type": "string"
+                }, {
+                    "name": "年月日",
+                    "description": "",
+                    "type": "date"
                 }
             ]
         }
     }, {
         "name": "evacuees-by-prefecture-2013-01-17",
-        "path": "data/csv/所在都道府県別の避難者等の数（平成２５年１月１７日現在）.csv",
+        "path": "data/csv/evacuees-by-prefecture-2013-01-17.csv",
         "format": "csv",
         "dialect": {
             "delimiter": ","
@@ -1246,12 +1350,16 @@
                     "name": "注釈",
                     "description": "",
                     "type": "string"
+                }, {
+                    "name": "年月日",
+                    "description": "",
+                    "type": "date"
                 }
             ]
         }
     }, {
         "name": "evacuees-by-prefecture-2013-02-07",
-        "path": "data/csv/所在都道府県別の避難者等の数（平成２５年２月７日現在）.csv",
+        "path": "data/csv/evacuees-by-prefecture-2013-02-07.csv",
         "format": "csv",
         "dialect": {
             "delimiter": ","
@@ -1292,12 +1400,16 @@
                     "name": "注釈",
                     "description": "",
                     "type": "string"
+                }, {
+                    "name": "年月日",
+                    "description": "",
+                    "type": "date"
                 }
             ]
         }
     }, {
         "name": "evacuees-by-prefecture-2013-03-07",
-        "path": "data/csv/所在都道府県別の避難者等の数（平成２５年３月７日現在）.csv",
+        "path": "data/csv/evacuees-by-prefecture-2013-03-07.csv",
         "format": "csv",
         "dialect": {
             "delimiter": ","
@@ -1338,12 +1450,16 @@
                     "name": "注釈",
                     "description": "",
                     "type": "string"
+                }, {
+                    "name": "年月日",
+                    "description": "",
+                    "type": "date"
                 }
             ]
         }
     }, {
         "name": "evacuees-by-prefecture-2013-04-04",
-        "path": "data/csv/所在都道府県別の避難者等の数（平成２５年４月４日現在）.csv",
+        "path": "data/csv/evacuees-by-prefecture-2013-04-04.csv",
         "format": "csv",
         "dialect": {
             "delimiter": ","
@@ -1384,12 +1500,16 @@
                     "name": "注釈",
                     "description": "",
                     "type": "string"
+                }, {
+                    "name": "年月日",
+                    "description": "",
+                    "type": "date"
                 }
             ]
         }
     }, {
         "name": "evacuees-by-prefecture-2013-05-09",
-        "path": "data/csv/所在都道府県別の避難者等の数（平成２５年５月９日現在）.csv",
+        "path": "data/csv/evacuees-by-prefecture-2013-05-09.csv",
         "format": "csv",
         "dialect": {
             "delimiter": ","
@@ -1430,12 +1550,16 @@
                     "name": "注釈",
                     "description": "",
                     "type": "string"
+                }, {
+                    "name": "年月日",
+                    "description": "",
+                    "type": "date"
                 }
             ]
         }
     }, {
         "name": "evacuees-by-prefecture-2013-06-06",
-        "path": "data/csv/所在都道府県別の避難者等の数（平成２５年６月６日現在）.csv",
+        "path": "data/csv/evacuees-by-prefecture-2013-06-06.csv",
         "format": "csv",
         "dialect": {
             "delimiter": ","
@@ -1476,12 +1600,16 @@
                     "name": "注釈",
                     "description": "",
                     "type": "string"
+                }, {
+                    "name": "年月日",
+                    "description": "",
+                    "type": "date"
                 }
             ]
         }
     }, {
         "name": "evacuees-by-prefecture-2013-07-04",
-        "path": "data/csv/所在都道府県別の避難者等の数（平成２５年７月４日現在）.csv",
+        "path": "data/csv/evacuees-by-prefecture-2013-07-04.csv",
         "format": "csv",
         "dialect": {
             "delimiter": ","
@@ -1522,12 +1650,16 @@
                     "name": "注釈",
                     "description": "",
                     "type": "string"
+                }, {
+                    "name": "年月日",
+                    "description": "",
+                    "type": "date"
                 }
             ]
         }
     }, {
         "name": "evacuees-by-prefecture-2013-08-12",
-        "path": "data/csv/所在都道府県別の避難者等の数（平成２５年８月１２日現在）.csv",
+        "path": "evacuees-by-prefecture-2013-08-12.csv",
         "format": "csv",
         "dialect": {
             "delimiter": ","
@@ -1568,12 +1700,16 @@
                     "name": "注釈",
                     "description": "",
                     "type": "string"
+                }, {
+                    "name": "年月日",
+                    "description": "",
+                    "type": "date"
                 }
             ]
         }
     }, {
         "name": "evacuees-by-prefecture-2013-09-12",
-        "path": "data/csv/所在都道府県別の避難者等の数（平成２５年９月１２日現在）.csv",
+        "path": "data/csv/evacuees-by-prefecture-2013-09-12.csv",
         "format": "csv",
         "dialect": {
             "delimiter": ","
@@ -1614,12 +1750,16 @@
                     "name": "注釈",
                     "description": "",
                     "type": "string"
+                }, {
+                    "name": "年月日",
+                    "description": "",
+                    "type": "date"
                 }
             ]
         }
     }, {
         "name": "evacuees-by-prefecture-2013-10-10",
-        "path": "data/csv/所在都道府県別の避難者等の数（平成２５年１０月１０日現在）.csv",
+        "path": "data/csv/evacuees-by-prefecture-2013-10-10.csv",
         "format": "csv",
         "dialect": {
             "delimiter": ","
@@ -1660,12 +1800,16 @@
                     "name": "注釈",
                     "description": "",
                     "type": "string"
+                }, {
+                    "name": "年月日",
+                    "description": "",
+                    "type": "date"
                 }
             ]
         }
     }, {
         "name": "evacuees-by-prefecture-2013-11-14",
-        "path": "data/csv/所在都道府県別の避難者等の数（平成２５年１１月１４日現在）.csv",
+        "path": "data/csv/evacuees-by-prefecture-2013-11-14.csv",
         "format": "csv",
         "dialect": {
             "delimiter": ","
@@ -1706,12 +1850,16 @@
                     "name": "注釈",
                     "description": "",
                     "type": "string"
+                }, {
+                    "name": "年月日",
+                    "description": "",
+                    "type": "date"
                 }
             ]
         }
     }, {
         "name": "evacuees-by-prefecture-2013-12-12",
-        "path": "data/csv/所在都道府県別の避難者等の数（平成２５年１２月１２日現在）.csv",
+        "path": "data/csv/evacuees-by-prefecture-2013-12-12.csv",
         "format": "csv",
         "dialect": {
             "delimiter": ","
@@ -1752,12 +1900,16 @@
                     "name": "注釈",
                     "description": "",
                     "type": "string"
+                }, {
+                    "name": "年月日",
+                    "description": "",
+                    "type": "date"
                 }
             ]
         }
     }, {
         "name": "evacuees-by-prefecture-2014-01-16",
-        "path": "data/csv/所在都道府県別の避難者等の数（平成２６年１月１６日現在）.csv",
+        "path": "data/csv/evacuees-by-prefecture-2014-01-16.csv",
         "format": "csv",
         "dialect": {
             "delimiter": ","
@@ -1798,12 +1950,16 @@
                     "name": "注釈",
                     "description": "",
                     "type": "string"
+                }, {
+                    "name": "年月日",
+                    "description": "",
+                    "type": "date"
                 }
             ]
         }
     }, {
         "name": "evacuees-by-prefecture-2014-02-13",
-        "path": "data/csv/所在都道府県別の避難者等の数（平成２６年２月１３日現在）.csv",
+        "path": "data/csv/evacuees-by-prefecture-2014-02-13.csv",
         "format": "csv",
         "dialect": {
             "delimiter": ","
@@ -1840,12 +1996,16 @@
                     "name": "注釈",
                     "description": "",
                     "type": "string"
+                }, {
+                    "name": "年月日",
+                    "description": "",
+                    "type": "date"
                 }
             ]
         }
     }, {
         "name": "evacuees-by-prefecture-2014-03-13",
-        "path": "data/csv/所在都道府県別の避難者等の数（平成２６年３月１３日現在）.csv",
+        "path": "data/csv/evacuees-by-prefecture-2014-03-13.csv",
         "format": "csv",
         "dialect": {
             "delimiter": ","
@@ -1882,12 +2042,16 @@
                     "name": "注釈",
                     "description": "",
                     "type": "string"
+                }, {
+                    "name": "年月日",
+                    "description": "",
+                    "type": "date"
                 }
             ]
         }
     }, {
         "name": "evacuees-by-prefecture-2014-04-10",
-        "path": "data/csv/所在都道府県別の避難者等の数（平成２６年４月１０日現在）.csv",
+        "path": "data/csv/evacuees-by-prefecture-2014-04-10.csv",
         "format": "csv",
         "dialect": {
             "delimiter": ","
@@ -1924,12 +2088,16 @@
                     "name": "注釈",
                     "description": "",
                     "type": "string"
+                }, {
+                    "name": "年月日",
+                    "description": "",
+                    "type": "date"
                 }
             ]
         }
     }, {
         "name": "evacuees-by-prefecture-2014-05-15",
-        "path": "data/csv/所在都道府県別の避難者等の数（平成２６年５月１５日現在）.csv",
+        "path": "data/csv/evacuees-by-prefecture-2014-05-15.csv",
         "format": "csv",
         "dialect": {
             "delimiter": ","
@@ -1966,6 +2134,10 @@
                     "name": "注釈",
                     "description": "",
                     "type": "string"
+                }, {
+                    "name": "年月日",
+                    "description": "",
+                    "type": "date"
                 }
             ]
         }
