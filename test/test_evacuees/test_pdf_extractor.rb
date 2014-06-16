@@ -22,7 +22,7 @@ class TestPDFExtractor < Evacuees::Test
   end
 
   def test_pdf_with_index_0_has_expected_description
-    assert_equal "（下段のカッコ書きは、前回（７月１４日現在）からの増減数）", @pdf_0.description
+    assert_equal "下段のカッコ書きは、前回（７月１４日現在）からの増減数", @pdf_0.description
   end
 
   def test_pdf_with_index_0_has_expected_date
