@@ -79,7 +79,7 @@ module Evacuees
     def row_count() 47 end
 
     def title_re() /(所在都道府県別の避難者等の数（平成.{2}年.{1,2}月.{1,2}日現在）)/ end
-    def description_re() /（下段の.*増減数）/ end
+    def description_re() /下段の.*増減数/ end
     def date_re() /.{2}年.{1,2}月.{1,2}/ end
 
     def headers
