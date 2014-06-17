@@ -16,7 +16,7 @@ Row and column totals and calculated changes in evacuee numbers were deleted. Th
 
 ### Published
 
-The extracted evacuees by prefecture tables are in the [CSV files](https://github.com/hhtyo/evacuees-by-prefecture/tree/master/data/csv) in this repository's `data/csv/` directory. Metadata for all of the files are in a [data package](http://dataprotocols.org/data-packages/) in this directory named [datapackage.json](https://raw.githubusercontent.com/hhtyo/evacuees-by-prefecture/master/datapackage.json).
+The extracted evacuees by prefecture tables are in the [CSV files](https://github.com/hhtyo/evacuees-by-prefecture/tree/master/data/csv) in this repository's `data/csv/` directory. Metadata for all the files are in a [data package](http://dataprotocols.org/data-packages/) in this directory named [datapackage.json](https://raw.githubusercontent.com/hhtyo/evacuees-by-prefecture/master/datapackage.json).
 
 ### Visualized
 
