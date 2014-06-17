@@ -1,6 +1,6 @@
 # Evacuees by Prefecture
 
-[![Build Status](https://travis-ci.org/hhtyo/evacuees-by-prefecture.png)](https://travis-ci.org/hhtyo/evacuees-by-prefecture) 
+[![Build Status](https://travis-ci.org/hhtyo/evacuees-by-prefecture.png)](https://travis-ci.org/hhtyo/evacuees-by-prefecture) *The build fails without `tabula-extractor` commit [d986614](https://github.com/jazzido/tabula-extractor/commit/d98661404019d0b5d91f9d78a7ee89551e07f2af).*
 
 ## The Data
 
@@ -12,7 +12,7 @@ Japan's [Reconstruction Agency](http://www.reconstruction.go.jp/) compiles data 
 
 ### Transformed
 
-Row and column totals and calculated changes in evacuee numbers were deleted. The first column, which had prefecture IDs and names, is split into two columns: [ISO 3166-2:JP](http://en.wikipedia.org/wiki/ISO_3166-2:JP) codes and prefecture names. Any notes that were in a table cell are in a new column at the end of each row. Lastly, the data date is appended to the end of the same row. Missing or empty values are marked with 'NA'.
+Row and column totals and calculated changes in evacuee numbers were deleted. The first column, which had prefecture IDs and names, is split into two columns: [ISO 3166-2:JP](http://en.wikipedia.org/wiki/ISO_3166-2:JP) codes and prefecture names. Any notes that were in a table cell are in a new column at the end of the same row. Lastly, the data date is appended to the end of the each row. Missing or empty values are marked with 'NA'.
 
 ### Published
 
