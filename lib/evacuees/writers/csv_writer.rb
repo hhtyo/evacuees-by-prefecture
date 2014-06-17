@@ -4,8 +4,11 @@ require 'csv'
 
 module Evacuees
   module CSVWriter
-    # @param [Hash] opts the options to write a CSV with.
-    # @option opts [String] :dir
+
+    # Writes a header and extracted rows to a CSV file.
+    # @param [Hash] opts the options to write the CSV with.
+    # @option opts [String] :dir ('../../../data/csv') The target directory
+    # @return [Array] The file metadata
     def to_csv(opts={})
       csv_dir = opts[:dir] || File.expand_path('../../../data/csv',  File.dirname(__FILE__))
       csv_name = ['evacuees-by-prefecture', date.to_s].join('-')
@@ -22,7 +25,6 @@ module Evacuees
         end
       end
 
-      # Return an array of variables for DatapackageJSON.
       [csv_name, title, description, uri, csv_header]
     end
   end

@@ -9,13 +9,21 @@ module Evacuees
     include TableConstants
     include CSVWriter
 
+    # @attr_reader [String] uri
+    # @attr_reader [String] path
+    # @attr_reader [String] title
+    # @attr_reader [String] description
+    # @attr_reader [Date] date
+    # @attr_reader [Array<String>] header
+    # @attr_reader [Array<String, Fixnum>]
     attr_reader :uri, :path, :title, :description, :date, :header, :rows
 
+    # Extracts the metadata and data from a PDF.
     # @param [Hash] opts the options to create a PDF object with.
-    # @option opts [Fixnum] :index
+    # @option opts [Fixnum] :index Overridden by :uri if provided
     # @option opts [String] :uri Overrides :index if provided
-    # @options opts [String] :dir
-    # @option opts [Range, Array<Fixnum>] :range
+    # @option opts [String] :dir The source file directory
+    # @option opts [Range, Array<Fixnum>] :range The pages to extract
     def initialize(opts={})
       @uri = opts[:uri] || files[opts[:index]]
       dir = opts[:dir] || File.expand_path('../../data/pdf',  File.dirname(__FILE__))

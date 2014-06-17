@@ -28,6 +28,7 @@ class Evacuees::Test
     end
   end
 
+  # Only extract each PDF once for testing.
   class << self
     attr_reader :pdf_0, :pdf_8, :pdf_31, :pdf_38
 

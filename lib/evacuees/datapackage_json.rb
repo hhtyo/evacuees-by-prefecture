@@ -5,8 +5,10 @@ require 'json'
 module Evacuees
   class DatapackageJSON
 
+    # @attr_reader [Hash] datapackage
     attr_reader :datapackage
 
+    # Creates a stub datapackage hash.
     def initialize
       @datapackage = {
         :name => 'evacuees-by-prefecture',
@@ -20,10 +22,17 @@ module Evacuees
       }
     end
 
+    # Converts a datapackage hash to JSON.
     def to_json
       datapackage.to_json
     end
 
+    # Adds a resource to a datapackage resources array.
+    # @param [String] name
+    # @param [String] title
+    # @param [String] description
+    # @param [String] uri
+    # @param [Array] header
     def add_resource(name, title, description, uri, header)
       datapackage[:resources] << {
         :name => name,
