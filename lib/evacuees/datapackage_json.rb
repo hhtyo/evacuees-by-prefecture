@@ -5,6 +5,8 @@ require 'json'
 module Evacuees
   class DatapackageJSON
 
+    attr_reader :datapackage
+
     def initialize
       @datapackage = {
         :name => 'evacuees-by-prefecture',
@@ -19,11 +21,11 @@ module Evacuees
     end
 
     def to_json
-      @datapackage.to_json
+      datapackage.to_json
     end
 
     def add_resource(name, title, description, uri, header)
-      @datapackage[:resources] << {
+      datapackage[:resources] << {
         :name => name,
         :title => title,
         :description => description,
