@@ -1,6 +1,6 @@
 # Evacuees by Prefecture
 
-[![Build Status](https://travis-ci.org/hhtyo/evacuees-by-prefecture.png)](https://travis-ci.org/hhtyo/evacuees-by-prefecture) *The build fails without `tabula-extractor` commit [d986614](https://github.com/jazzido/tabula-extractor/commit/d98661404019d0b5d91f9d78a7ee89551e07f2af).*
+[![Build Status](https://travis-ci.org/hhtyo/evacuees-by-prefecture.png)](https://travis-ci.org/hhtyo/evacuees-by-prefecture) *The build fails without `tabula-extractor` commit [eb9b506](https://github.com/jazzido/tabula-extractor/commit/eb9b506e45cf916e61dd0404b91f612a49ea01be).*
 
 ## The Data
 
