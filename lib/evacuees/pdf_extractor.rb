@@ -64,19 +64,20 @@ module Evacuees
         # 1. Transpose zenkaku characters with their single-byte counterparts.
         # 2. Remove carriage returns, white space, and commas.
         # 3. Delete empty columns.
-        # 4. Delete the total column.
-        # 5. Insert a space between a number and a footnote or
+        # 4. Insert a space between a number and a footnote or
         #    calculated change in evacuees.
-        # 6. Insert a space between a number and a prefecture name.
-        # 7. Replace missing data columns with 'NA'.
+        # 5. Insert a space between a number and a prefecture name.
+        # 6. Replace missing data columns with 'NA'.
         row.map { |column| column.tr('（）＋－ー，０-９　', '()+\-—,0-9 ') }
           .map { |column| column.gsub(/[\r\s,]/, '') }
           .reject { |column| column.empty? }
-          .reject.with_index { |_, index| (row.length - 3) == index }
           .map { |column| column.gsub(/([0-9])(\()/, '\1 \2') }
           .map { |column| column.gsub(/^([0-9]{1,2})(\W{2,3}[都道府県]$)/, '\1 \2') }
           .map { |column| column.gsub(/^[-—]$/, 'NA')}
       end
+
+      # Delete the total column.
+      rows.each { |row| row.delete_at(row.length - 2) }
 
       # Delete header and total rows.
       #--
