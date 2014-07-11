@@ -22,4 +22,23 @@ The extracted evacuees by prefecture tables are in the [CSV files](https://githu
 
 The inspiration for extracting this data came from a comment and a [visualization](http://www3.nhk.or.jp/nhkworld/newsline/path_to_recovery/post-disaster_recovery_in_numbers.pdf) shared by [NHK News Web](http://www3.nhk.or.jp/news/) developer Satoshi Yamamoto in the [European Journalism Centre](http://ejc.net/)'s [Doing Journalism with Data](http://datajournalismcourse.net/) MOOC. It would be exciting to see more stories told with this data.
 
+### Executable
+
+An executable hasn't been committed to the repository. For the curious, it's something like the following.
+
+```{jruby}
+require_relative './lib/evacuees'
+
+datapackage = Evacuees::DatapackageJSON.new
+
+Evacuees::FileConstants.files.each do |uri|
+  name, title, description, uri, header = Evacuees::PDFExtractor.new({:uri => uri}).to_csv
+  datapackage.add_resource(name, title, description, uri, header)
+end
+
+datapackage_json = datapackage.to_json
+
+File.open('datapackage.json', 'w') { |f| f.write(datapackage_json) }
+```
+
 [![CC0](http://i.creativecommons.org/p/zero/1.0/80x15.png)](http://creativecommons.org/publicdomain/zero/1.0/)
