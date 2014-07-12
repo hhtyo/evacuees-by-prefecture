@@ -26,7 +26,7 @@ The inspiration for extracting this data came from a comment and a [visualizatio
 
 An executable hasn't been committed to the repository. For the curious, it's something like the following.
 
-```{jruby}
+```ruby
 require_relative './lib/evacuees'
 
 datapackage = Evacuees::DatapackageJSON.new
