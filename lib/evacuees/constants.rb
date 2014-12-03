@@ -63,7 +63,9 @@ module Evacuees
         'http://www.reconstruction.go.jp/topics/main-cat2/sub-cat2-1/20140624_hinansha.pdf',
         'http://www.reconstruction.go.jp/topics/main-cat2/sub-cat2-1/20140729_hinansha.pdf',
         'http://www.reconstruction.go.jp/topics/main-cat2/sub-cat2-1/20140829_hinansha.pdf',
-        'http://www.reconstruction.go.jp/topics/main-cat2/sub-cat2-1/20140930_hinansha.pdf'
+        'http://www.reconstruction.go.jp/topics/main-cat2/sub-cat2-1/20140930_hinansha.pdf',
+        'http://www.reconstruction.go.jp/topics/main-cat2/sub-cat2-1/20141031_hinansha.pdf',
+        'http://www.reconstruction.go.jp/topics/main-cat2/sub-cat2-1/20141128_hinansha.pdf'
       ]
     end
 
