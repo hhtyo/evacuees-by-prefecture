@@ -1,6 +1,6 @@
 # Evacuees by Prefecture
 
-[![Build Status](https://travis-ci.org/hhtyo/evacuees-by-prefecture.png)](https://travis-ci.org/hhtyo/evacuees-by-prefecture) *The build fails without `tabula-extractor` commit [eb9b506](https://github.com/jazzido/tabula-extractor/commit/eb9b506e45cf916e61dd0404b91f612a49ea01be).*
+[![Build Status](https://travis-ci.org/hhtyo/evacuees-by-prefecture.png)](https://travis-ci.org/hhtyo/evacuees-by-prefecture)
 
 ## The Data
 
@@ -27,7 +27,7 @@ The inspiration for extracting this data came from a comment and a [visualizatio
 An executable hasn't been committed to the repository. For the curious, it's something like the following.
 
 ```ruby
-require_relative './lib/evacuees'
+require_relative 'lib/evacuees'
 
 datapackage = Evacuees::DatapackageJSON.new
 
